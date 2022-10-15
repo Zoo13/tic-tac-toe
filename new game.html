@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link href="new game.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="theme1">
+        <header>
+            <div class="header-box">
+                <img src="assets/logo.svg">
+                <div class="turn-indicator">
+                    <img src="assets/icon-x-gray.svg" id="turnIMG">
+                    <p> TURN </p>
+                </div>
+                <div class="restart" id="restart-cont">
+                    <img src="assets/icon-restart.svg">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="game-container">
+                <div class="game-xo" id="cont-1"></div>
+                <div class="game-xo" id="cont-2"></div>
+                <div class="game-xo" id="cont-3"></div>
+                <div class="game-xo" id="cont-4"></div>
+                <div class="game-xo" id="cont-5"></div>
+                <div class="game-xo" id="cont-6"></div>
+                <div class="game-xo" id="cont-7"></div>
+                <div class="game-xo" id="cont-8"></div>
+                <div class="game-xo" id="cont-9"></div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-cont">
+                <div class="footer-1" id="footer-1">
+                    <h5> X (YOU)</h5>
+                    <h4> 0</h5>
+                </div>
+                <div class="footer-2" id="footer-tie">
+                    <h5> TIES</h5>
+                    <h4> 0</h5>
+                </div>
+                <div class="footer-3" id="footer-cpu">
+                    <h5> O (CPU)</h5>
+                    <h4> 0</h5>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="restart-window" id="restart-window">
+        <div>
+            <h2> RESTART GAME ?</h2>
+        </div>
+        <div class="restart-game">
+            <button id="cancel-restart">NO, CANCEL</button>
+            <button id="yes-restart">YES, RESTART</button>
+        </div>
+    </div>
+    <div class="takes-Round" id="round-winner-window">
+        <h5 id="whoWonGame"> WINNER </h5>
+        <div class="X-O-Winner" id="XO-winner">
+            <img id="winner-img" src="assets/icon-x.svg">
+            <h1 id="round-taker-text">TAKES THE ROUND</h1>
+        </div>
+        <div>
+            <a id="quitBtn">
+                <button id="quit">Quit</button>
+            </a>
+            <button id="next-round">Next Round</button>
+        </div>
+    </div>
+    <script src="new game.js"></script>
+</body>
+
+
+</html>

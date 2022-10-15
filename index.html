@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.svg">
+    </header>
+    <main>
+        <div class="main-container">
+            <h1> PICK PLAYER 1'S MARK </h1>
+            <div class="choice o">
+                <div id="choice-background"></div>
+                <div id="x-cont">
+                    <img src="assets/icon-x-gray.svg" id="x-icon" >
+                </div>
+                <div id="o-cont">
+                    <img src="assets/icon-o-black.svg" id="o-icon">
+                </div>
+            </div>
+            <h2> REMEMBER : X GOES FIRST</h2>
+        </div>
+    </main>
+    <footer>
+        <a id="newGameBtn">
+            <button id="vsCPU" onclick=newGame()>
+                NEW GAME (VS CPU)
+            </button>
+        </a>
+        <a id="PlayerVsPlayer">
+            <button id="vsPLAYER" onclick=newGameVsPlayer()>
+                NEW GAME (VS PLAYER)
+            </button>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
