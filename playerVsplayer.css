@@ -153,6 +153,7 @@ h4 {
     margin-right: 8px;
     font-size: 16px;
     font-weight: 700;
+    color: #1A2A33;
 }
 
 #yes-restart {
@@ -165,6 +166,7 @@ h4 {
     margin-left: 8px;
     font-size: 16px;
     font-weight: 700;
+    color: #1A2A33;
 }
 #yes-restart:active{
     filter: drop-shadow(0px 2px 0 #CC8B13);
@@ -215,13 +217,14 @@ h4 {
 #quit {
     width: 76px;
     height: 48px;
-    font-weight: 700;
-    font-size: 16px;
     background-color: #A8BFC9;
     border: none;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 0px #6B8997);
     margin-right: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A2A33;
 }
 #quit:hover {
     background-color: #DBE8ED;
@@ -235,12 +238,13 @@ h4 {
 #next-round{
     width: 146px;
     height: 48px;
-    font-weight: 700;
-    font-size: 16px;
     background-color:#F2B137;
     border: none;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 0px #CC8B13);
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A2A33;
 }
 #next-round:active {
     filter: drop-shadow(0px 2px 0px #CC8B13);
